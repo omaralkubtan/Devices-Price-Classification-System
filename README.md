@@ -50,19 +50,20 @@ For AI code and documentation, refer to device_price_classification.ipynb.
 Device: Represents the details of each device.
 
 ### Endpoints
-POST http://localhost:9000/api/devices/: Retrieves all devices.
-GET http://localhost:9000/api/devices/{id}: Retrieves a specific device by ID.
-POST http://localhost:9000/api/devices: Adds a new device.
+POST http://localhost:9000/api/devices/: Retrieves all devices.</br>
+GET http://localhost:9000/api/devices/{id}: Retrieves a specific device by ID.</br>
+POST http://localhost:9000/api/devices: Adds a new device.</br>
 POST http://localhost:9000/api/predict/{deviceId}: Predicts the price and updates the device entity.
+
+### Data Storage
+PostgresSQL
 
 ### Setup and Execution
 Open the demo project in IntelliJ IDEA or a similar IDE.
 Please Note That you have to install PostgreSQL First and make sure that the database is listening on port 5432, and creat database called called `device_price_classification` 
 Run the application.
 
-### Data Storage
-PostgresSQL
 
-Contributions
+## Contributions
 Contributions are welcome. Please submit pull requests for review.
 
